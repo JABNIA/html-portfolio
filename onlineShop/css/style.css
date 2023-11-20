@@ -1,0 +1,234 @@
+body > * {
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100%;
+}
+
+:root {
+    --main-color-1: #006699;
+    --main-color-2: #f2f2f2;
+    --main-color-3: gray; 
+}
+
+header {
+    height: 80px;
+    background-color: var(--main-color-2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-wraper
+#search {
+    width: 400px;
+    height: 50px;
+    border: 2px solid var(--main-color-1);
+    border-radius: 30px;
+    color: var(--main-color-1);
+    font-style: italic;
+}
+
+.search-button {
+    color: var(--main-color-2);
+    font-size: 50px;
+    background-color: var(--main-color-1);
+    border: 2px solid var(--main-color-1);
+    border-radius: 10px;
+}
+
+.search-button:hover {
+    color: var(--main-color-1);
+    background-color: var(--main-color-3);
+    border:2px solid var(--main-color-3)
+}
+
+nav {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    color: var(--main-color-1);
+}
+
+.link-button {
+    color: var(--main-color-1);
+    width: 200px;
+    height: 40px;
+    border: 2px solid var(--main-color-1);
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;   
+    padding-top: 10px; 
+}
+
+.link-button:hover {
+    color: var(--main-color-2);
+    background-color: var(--main-color-1);
+}
+
+.icon {
+    padding-right: 30px;
+    font-size: 40px;
+}
+
+.icon:hover {
+    color: var(--main-color-3);
+}
+/*------------------- HEADER PART END -------------------*/
+
+/*------------------- MAIN PART START -------------------*/
+main {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+    min-height: calc(100vh - 200px);
+}
+.product-categories {
+    background-color: var(--main-color-1);
+    color: var(--main-color-2);
+    width: 300px;
+    height: 50%;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.categories-list {
+    list-style: none;
+    padding: 15px;
+}
+
+ul > li {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid var(--main-color-2);
+}
+
+ul > li > a {
+    color: var(--main-color-2);
+    text-decoration: none;
+}
+
+ul > li > a:hover {
+    color: var(--main-color-3);
+    cursor: pointer;
+}
+
+.registration-forms {
+    width: 35%;
+    height: 600px;
+    border: 2px solid var(--main-color-1);
+    border-radius: 30px;
+    margin: 20px 20% 0px 0px;
+    color: var(--main-color-1);
+    text-align: center;
+}
+
+form {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-icon{   
+    font-size: 24px;
+    width: 46px;
+    height: 46px;
+    background-color: var(--main-color-1);
+    color: var(--main-color-2);
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form {
+    width: 300px;
+    height: 40px;
+    border: 2px solid var(--main-color-1);
+    display: inline-block;
+    font-size: 16px;
+    color: var(--main-color-1);
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-registration {
+    margin-top: 50px;
+    margin-left: 33%;
+    width: 30%;
+    color:var(--main-color-2);
+    background-color: var(--main-color-1);
+    padding: 10px;
+    border-radius: 10px;
+}
+/*------------------- MAIN PART END -------------------*/
+
+/*------------------- FOOTER PART START -------------------*/
+footer {
+    min-height: 200px;
+    width: 100%;
+    background-color: var(--main-color-2);
+    display: flex;
+    justify-content: space-evenly;
+}
+h3  {
+    font-size: 24px;
+}
+.top-categories {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: var(--main-color-1);
+}
+
+.category-button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-link-button {
+    color: var(--main-color-1);
+    min-width: 100px;
+    height: auto;
+    border: 2px solid var(--main-color-1);
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;  
+    box-sizing: border-box; 
+    padding: 10px;
+    margin: 10px; 
+}
+
+.top-link-button:hover {
+    color: var(--main-color-2);
+    background-color: var(--main-color-1); 
+}
+
+.socials {
+color: var(--main-color-1);
+font-size: 24px;
+text-align: center;
+width: 50%;
+height: 100%;
+}
+
+.social-icons {
+    box-sizing: border-box;
+    margin: -30px 10px 0px 10px ;  
+}
+
+.social-icons:hover {
+    color: var(--main-color-3);
+}
+/*------------------- FOOTER PART END -------------------*/

@@ -1,0 +1,73 @@
+body > * {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --white: white;
+}
+
+.body-wrapper {
+    width: 100%;
+}
+
+header {
+    min-height: 60px;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+
+main {
+    min-height: calc(100vh - 100px);
+}
+
+.banner {
+    height: 700px;
+    background-image: url("../imgs/main-picture.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: end;
+    align-items: center;
+}
+
+.description {
+   height: 100%;
+   padding-top: 15%;    
+   box-sizing: border-box;
+}
+
+.cources {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    background-color: lightgrey;
+}
+
+.card > img {
+    margin-top: -10px;
+}
+footer { 
+    width: 100%;
+    min-height: 100px;
+}
+.footer-wraper {
+    width: 100%;
+}
+
+h2 { 
+    color: lightgray;
+}
+
+@media (max-width: 574px) {
+    .description {
+        padding-left: 30px;
+    }
+}
